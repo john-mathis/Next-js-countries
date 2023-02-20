@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+import Cards from "../Components/Cards";
 import Header from "../Components/Header";
 
 const Home: NextPage = () => {
@@ -13,6 +13,7 @@ const Home: NextPage = () => {
 
       <main>
         <Header />
+        <Cards />
       </main>
     </div>
   );
